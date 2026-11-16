@@ -1,0 +1,7 @@
+Dataset,Raw_Rows,Clean_Status,Notes
+Orders,99441,Delivered/Standardized,Dates parsed to UTC
+Customers,99441,Validated Unique IDs,Zero NAs in customer_unique_id
+Order Items,112650,Aggregated to Order,Raw prices kept (no GST invention)
+Payments,103886,Aggregated to Order,Split into CC/Boleto/Voucher
+Reviews,99224,Averaged to Order,"Scores 1-5, NAs imputed median"
+Products,32951,Translated & Imputed,610 missing categories imputed as unknown

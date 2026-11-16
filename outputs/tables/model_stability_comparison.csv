@@ -1,0 +1,5 @@
+Model,Val_ROC_AUC,Test_ROC_AUC,ROC_AUC_Delta,Pct_Shift
+Baseline (Recency Rule),0.5896,0.5678,-0.0218,3.7
+Logistic Regression,0.568,0.5915,0.0235,4.14
+Random Forest,0.5359,0.5561,0.0202,3.77
+Tuned XGBoost,0.5788,0.571,-0.0078,1.35

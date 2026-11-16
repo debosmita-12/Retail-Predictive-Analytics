@@ -1,0 +1,26 @@
+# R Environment & Package Manifest
+# Tested on R version 4.6.1 (2026-06-24 ucrt) on Windows
+
+# Core Data Wrangling & Modeling
+data.table==1.15.4
+dplyr==1.1.4
+lubridate==1.9.3
+
+# Machine Learning & Evaluation
+xgboost==2.0.3
+ranger==0.16.0
+pROC==1.18.5
+
+# Visualizations & Diagnostics
+ggplot2==3.5.1
+scales==1.3.0
+gridExtra==2.3
+
+# Reporting & Documentation
+knitr==1.46
+markdown==1.12
+rmarkdown==2.26
+litedown==0.3
+
+# Installation in R:
+# install.packages(c("data.table", "dplyr", "lubridate", "xgboost", "ranger", "pROC", "ggplot2", "scales", "gridExtra", "knitr", "markdown", "rmarkdown", "litedown"))

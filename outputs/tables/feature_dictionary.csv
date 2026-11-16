@@ -1,0 +1,22 @@
+Feature,Type,Description
+recency_days,numeric,Days since most recent order prior to snapshot
+tenure_days,numeric,Days since very first order prior to snapshot
+order_frequency,integer,Total historical order count in lookback period
+total_spend,numeric,Total cumulative merchandise spend (BRL)
+total_freight,numeric,Total cumulative freight charges paid (BRL)
+total_items,integer,Total physical items purchased across all orders
+avg_order_value,numeric,Average spend per order (total_spend / order_frequency)
+avg_items_per_order,numeric,Average item count per order (total_items / order_frequency)
+freight_ratio,numeric,Ratio of freight costs to gross spend (freight / (spend + freight))
+credit_card_share,numeric,Fraction of orders paid via credit card
+boleto_share,numeric,Fraction of orders paid via boleto bancario
+avg_installments,numeric,Average installment count across transactions
+avg_review_score,numeric,Mean customer review rating (1 to 5 stars)
+has_low_review,integer,Binary flag: 1 if customer ever gave a 1 or 2-star review
+canceled_orders,integer,Count of canceled orders historically
+distinct_categories,integer,Number of distinct product categories purchased
+spend_last_30d,numeric,Merchandise spend in the 30 days preceding snapshot
+spend_velocity_30d,numeric,Ratio of recent 30-day spend to total spend (velocity)
+orders_last_30d,integer,Order count in the 30 days preceding snapshot
+orders_last_90d,integer,Order count in the 90 days preceding snapshot
+state_grp,factor,"Customer geographic region (SP, RJ, MG, Other)"

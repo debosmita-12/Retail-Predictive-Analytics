@@ -1,0 +1,6 @@
+Feature,KS_Statistic,KS_P_Value,PSI,Drift_Status
+recency_days,0.0972,<2e-16,0.0897,Negligible (< 0.1)
+tenure_days,0.0968,<2e-16,0.0924,Negligible (< 0.1)
+total_spend,0.0109,0.00372,0.0024,Negligible (< 0.1)
+avg_order_value,0.011,0.00344,0.002,Negligible (< 0.1)
+freight_ratio,0.0068,0.177,4e-04,Negligible (< 0.1)

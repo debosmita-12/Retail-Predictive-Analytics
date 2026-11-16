@@ -1,0 +1,5 @@
+Model,Test_ROC_AUC,Test_PR_AUC,Precision,Recall,F1_Score,Recall_at_99.6_Prec
+Baseline (Recency Rule),0.5678,0.9962,0.9964,0.698,0.8209,0.8861
+Logistic Regression,0.5915,0.9965,0.9966,0.5897,0.741,0.9159
+Random Forest,0.5561,0.9962,0.996,0.667,0.799,0.7837
+Tuned XGBoost,0.571,0.9963,0.9963,0.6156,0.761,0.8255

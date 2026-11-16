@@ -1,0 +1,5 @@
+Model,Val_ROC_AUC,Val_PR_AUC
+Baseline (Recency Rule),0.5896,0.996
+Logistic Regression,0.568,0.9953
+Random Forest,0.5359,0.9953
+Tuned XGBoost,0.5788,0.9959
